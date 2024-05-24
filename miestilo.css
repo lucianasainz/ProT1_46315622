@@ -1,0 +1,158 @@
+
+header{ 
+
+  .logo{
+    float: left;
+  }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#F9DEC9;
+    color: #685044;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:30px;
+    text-indent: 20px;
+    text-underline-position: auto;
+    line-height: 10px;
+    
+}
+
+
+nav {
+
+    background-color:#3A405A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+
+}
+/* Saca los estilos predeterminados de la lista */
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+  }
+  
+  
+  nav ul li {
+    margin-right: 20px; 
+  }
+   
+  nav ul li first {
+    margin-right: 20px; 
+  }
+
+  nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px 20px; 
+    display: block; /* Hace que todo el área del enlace se pueda cliquear */
+  }
+  
+  /* Estilo al pasar el mouse */
+  nav ul li a:hover {
+    background-color: #E9AFA3;
+    color: #fff; 
+  }
+
+  body {
+    background-color: #fff;
+    color:#3A405A;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    .sobreNosotros{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      padding-bottom: 0;
+    }
+
+    h1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 40px;
+    }
+    
+    h2{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+    }
+  
+    h3{
+  
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  h4{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      text-align: center;
+  }
+  
+}
+
+article{
+
+  img {
+
+      display: block; 
+      margin: 0 auto; /* Centrar las imágenes horizontalmente */
+      max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+      border: 3px solid #3A405A; 
+      border-radius: 10px; 
+
+  }
+  .descripcion {
+      background-color: aliceblue;
+      border: 3px solid #3A405A;
+      border-radius: 10px;
+  }
+
+}
+
+form{
+    display: list-item;
+    align-items: center;
+    justify-content:center;
+    background-color: #F9DEC9;
+}
+
+footer{
+  background-color: #3A405A;
+  color:#fff
+  padding: 0;
+
+  .textoFooter{
+      color:#fff;
+  }
+}
+.footer-content {
+  max-width: 800px; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center; }
+  footer .redes-sociales {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  
+  footer .redes-sociales li {
+      display: inline-block;
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+  
+  footer .redes-sociales li:last-child {
+      margin-right: 0px;
+      
+  }
+  
+  footer .redes-sociales li a img {
+      width: 60px;
+  }
